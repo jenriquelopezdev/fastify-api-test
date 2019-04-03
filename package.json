@@ -1,0 +1,20 @@
+{
+  "name": "fastify-api",
+  "version": "1.0.0",
+  "description": "this is a test fastify api",
+  "main": "src/index.js",
+  "dependencies": {
+    "boom": "^7.3.0",
+    "fastify": "^2.1.0",
+    "fastify-swagger": "^2.3.2",
+    "mongoose": "^5.4.21",
+    "nodemon": "^1.18.10"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "./node_modules/nodemon/bin/nodemon.js ./src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Enrique Lopez",
+  "license": "ISC"
+}
